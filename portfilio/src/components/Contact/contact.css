@@ -4,9 +4,8 @@
   }
   
   .c-bg {
-    width: 20px;
+    width: 10px;
     height: 100%;
-    /* background-color: #FCC76D; */
     background: -webkit-linear-gradient(#f38d08,rgb(85, 83, 83));
     position: absolute;
   }
@@ -72,16 +71,18 @@
     padding-left: 10px;
   }
   
-  button {
+  /* button {
     border: none;
-    padding: 15px;
+    padding: 10px;
     background-color: #FCC76D;
     color: black;
     font-weight: bolder;
     cursor: pointer;
-  }
+  } */
   
   @media screen and (max-width: 650px) {
+
+    
     .c-wrapper {
       flex-direction: column;
       padding: 0px 50px;
@@ -119,13 +120,12 @@
   }
 
   .button {
-    padding: 15px 25px;
+    padding: 10px 15px;
     font-size: 24px;
     text-align: center;
     cursor: pointer;
     outline: none;
     color: #fff;
-    /* background-color: #D47901; */
     background: -webkit-linear-gradient(#f38d08,rgb(15, 4, 4));
 
     border: none;

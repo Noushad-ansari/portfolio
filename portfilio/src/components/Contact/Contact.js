@@ -70,9 +70,9 @@ const Contact = () => {
                         freelancing if the right project comes along. me.
                     </p>
                     <form ref={formRef} onSubmit={sendEmail}>
-                        <input  type="text" placeholder="Name" name="user_name" value={user_name}  onChange={handleChange}/>
-                        <input  type="text" placeholder="Subject" name="user_subject" value={user_subject} onChange={handleChange}/>
-                        <input  type="text" placeholder="Email" name="user_email" value={user_email} onChange={handleChange}/>
+                        <input   type="text" placeholder="Name" name="user_name" value={user_name}  onChange={handleChange} required / >
+                        <input   type="text" placeholder="Subject" name="user_subject" value={user_subject} onChange={handleChange} required / >
+                        <input   type="text" placeholder="Email" name="user_email" value={user_email} onChange={handleChange} required / >
                         <textarea  rows="5" placeholder="Message" name="message" value={message} onChange={handleChange}/>
                         <button className='button'>Submit</button>
                         <ToastContainer />

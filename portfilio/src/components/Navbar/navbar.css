@@ -1,0 +1,24 @@
+.darkNav {
+  /* background: -webkit-linear-gradient(rgba(253, 180, 22, 0.7), rgba(109, 108, 108,0.7)) !important; */
+  /* background-color: rgba(109, 108, 108,0.9) !important; */
+  background-color: rgb(34, 34, 34,0.9) !important;
+  /* opacity: .4 !important; */
+}
+
+/* #menuName{
+  color: white;
+} */
+
+
+
+@media screen and (max-width: 480px) {
+  .darkNav{
+    /* background: -webkit-linear-gradient(rgba(253, 180, 22, 0.7), rgba(109, 108, 108,0.7)) !important; */
+    background-color: rgba(34, 34, 34,0.9) !important;
+    /* opacity: .4 !important; */
+  }
+
+  /* #menuName{
+    color: white;
+  } */
+}

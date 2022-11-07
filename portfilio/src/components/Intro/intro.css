@@ -1,6 +1,7 @@
 .i {
   display: flex;
   height: 100vh;
+  margin-top:50px;
 }
 
 .i-left {
@@ -35,7 +36,6 @@
 
 .i-name {
   font-size: 60px;
-  color: rgb(3, 3, 3);
   text-shadow: 2px 5px 5px black;
 }
 
@@ -104,8 +104,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  
   .i {
     flex-direction: column;
+    margin-top: 65px;
   }
 
   .i-left-wrapper {
@@ -121,7 +123,6 @@
 
   .i-name {
     font-size: 60px;
-    color: rgb(3, 3, 3);
     text-shadow: 2px 5px 5px black;
   }
 
